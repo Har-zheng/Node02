@@ -1,7 +1,463 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32e0dedf-9300-4b2f-bdae-3fec2ea408c7" name="Default" comment="" />
+    <list default="true" id="32e0dedf-9300-4b2f-bdae-3fec2ea408c7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/04nodejs_fs模块/02fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04nodejs_fs模块/03.fs.createReadStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04nodejs_fs模块/04.fs.createWriteStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04nodejs_fs模块/05.读取写入管道流pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/00server1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/00server2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/00server3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/00server4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/00server5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/00server6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/mime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/model/getmime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/Ngrade_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/centerRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/comQ.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/dmb.bottom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/dmb.header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/t.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/zhanshi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/css/zz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/all/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/be/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/bg/courseBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/bg/dot_del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/bg/follow_label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/data/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/elevator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/fe/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/footer-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/gsearch-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/head-app-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/icon_msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/ipt-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/ln_mksq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/menu_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/mobile/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/nlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/photo/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/touxiang/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/touxiang/linan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/touxiang/wujiatian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/touxiang/yangtonghui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/touxiang/zhangling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/user_card_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/image/wenda_tx/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/jq/comQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/jq/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/jq/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/jq/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/Ngrade_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/dj_goto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/dj_hot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/dj_label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/dj_leifeng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/headerPart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/jt_comQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/mainPart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/zhanshi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/js/zz_myAjax0.2.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/android.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/angularjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/bootstrap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/c3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/cjiajia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/cocos2d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/csharp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/dashuju.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/fetools.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/go.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/h5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/hc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/hot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/ios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/javaee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/jq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/js.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/label.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/leifeng.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/linux.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/maya.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/mobile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/mongodb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/mysql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/nodejs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/oracle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/photo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/photoshop.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/php.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/promiere.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/python.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/unity3d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/userMsg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/webapp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/weda.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/yunjisuan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/json/zhanshi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05nodejs静态web服务/static/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/00server5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/01非阻塞.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/02回调函数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/03Nodejs事件驱动01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/04nodejs事件驱动获取数据.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/mime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/111.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/Ngrade_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/centerRight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/comQ.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/dmb.bottom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/dmb.header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/t.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/zhanshi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/css/zz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/all/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/be/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/bg/courseBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/bg/dot_del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/bg/follow_label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/data/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/elevator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/fe/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/footer-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/gsearch-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/head-app-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/icon_msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/ipt-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/ln_mksq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/menu_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/mobile/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/nlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/photo/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/touxiang/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/touxiang/linan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/touxiang/wujiatian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/touxiang/yangtonghui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/touxiang/zhangling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/user_card_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/image/wenda_tx/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/jq/comQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/jq/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/jq/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/jq/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/Ngrade_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/dj_goto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/dj_hot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/dj_label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/dj_leifeng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/headerPart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/jt_comQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/mainPart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/zhanshi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/js/zz_myAjax0.2.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/android.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/angularjs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/bootstrap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/c3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/cjiajia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/cocos2d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/csharp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/dashuju.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/fetools.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/go.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/h5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/hc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/hot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/ios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/javaee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/jq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/js.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/label.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/leifeng.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/linux.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/maya.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/mobile.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/mongodb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/mysql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/nodejs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/oracle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/photo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/photoshop.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/php.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/promiere.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/python.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/sql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/unity3d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/userMsg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/webapp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/weda.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/yunjisuan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/json/zhanshi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04nodejs_fs模块/fs01.js" beforeDir="false" afterPath="$PROJECT_DIR$/04nodejs_fs模块/fs01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04nodejs_fs模块/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/04nodejs_fs模块/index.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,23 +469,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="fs01.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="03Nodejs事件驱动01.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/03Nodejs事件驱动01.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="682">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/t1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="04nodejs事件驱动获取数据.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/04nodejs事件驱动获取数据.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/index.txt">
+      <file leaf-file-name="getmimefromfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00server5.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/00server5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00server5.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getmimefromfile_sync.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile_sync.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -38,15 +528,53 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="tsconfig.json" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>=</find>
+      <find>&quot;</find>
+      <find>.zip</find>
+      <find>to_parent</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/04nodejs_fs模块/index.txt" />
+        <option value="$PROJECT_DIR$/04nodejs_fs模块/html/style.css" />
         <option value="$PROJECT_DIR$/04nodejs_fs模块/fs01.js" />
+        <option value="$PROJECT_DIR$/04nodejs_fs模块/02fs.js" />
+        <option value="$PROJECT_DIR$/04nodejs_fs模块/index.txt" />
+        <option value="$PROJECT_DIR$/04nodejs_fs模块/03.fs.createReadStream.js" />
+        <option value="$PROJECT_DIR$/04nodejs_fs模块/04.fs.createWriteStream.js" />
+        <option value="$PROJECT_DIR$/04nodejs_fs模块/05.读取写入管道流pipe.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server1.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server2.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/model/getmime.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server3.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server4.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/tsconfig.json" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/mime.json" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile_sync.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/01非阻塞.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/02回调函数.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/03Nodejs事件驱动01.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server6.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/04nodejs事件驱动获取数据.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/model/getmime.js" />
+        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server5.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/00server5.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/model/getmimefromfile.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/00server5.js" />
+        <option value="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile.js" />
       </list>
     </option>
   </component>
@@ -59,18 +587,20 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1741" />
-    <option name="y" value="36" />
-    <option name="width" value="1321" />
-    <option name="height" value="940" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1513" />
+    <option name="y" value="49" />
+    <option name="width" value="1725" />
+    <option name="height" value="935" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,19 +611,40 @@
             <path>
               <item name="node02" type="b2602c69:ProjectViewProjectNode" />
               <item name="node02" type="462c0819:PsiDirectoryNode" />
-              <item name="04nodejs_fs模块" type="462c0819:PsiDirectoryNode" />
+              <item name="05nodejs静态web服务" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node02" type="462c0819:PsiDirectoryNode" />
+              <item name="06nodejs的非阻塞io,异步以及事件驱动Event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node02" type="462c0819:PsiDirectoryNode" />
+              <item name="06nodejs的非阻塞io,异步以及事件驱动Event" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event" />
+      <recent name="$PROJECT_DIR$/05nodejs静态web服务" />
+      <recent name="$PROJECT_DIR$/05nodejs静态web服务/model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,11 +658,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="fs01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="fs01.js" working-dir="$PROJECT_DIR$/04nodejs_fs模块" />
+  <component name="RunManager" selected="Node.js.00server5.js (1)">
+    <configuration name="00server5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="00server5.js" working-dir="$PROJECT_DIR$/05nodejs静态web服务" />
+    <configuration name="00server5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/00server5.js" working-dir="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event" />
+    <configuration name="00server6.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="00server6.js" working-dir="$PROJECT_DIR$/05nodejs静态web服务" />
+    <configuration name="04nodejs事件驱动获取数据.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/04nodejs事件驱动获取数据.js" working-dir="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event" />
+    <configuration name="getmimefromfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile.js" working-dir="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model" />
+    <list>
+      <item itemvalue="Node.js.00server6.js" />
+      <item itemvalue="Node.js.04nodejs事件驱动获取数据.js" />
+      <item itemvalue="Node.js.getmimefromfile.js" />
+      <item itemvalue="Node.js.00server5.js" />
+      <item itemvalue="Node.js.00server5.js (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.fs01.js" />
+        <item itemvalue="Node.js.00server5.js (1)" />
+        <item itemvalue="Node.js.getmimefromfile.js" />
+        <item itemvalue="Node.js.00server6.js" />
+        <item itemvalue="Node.js.00server5.js" />
+        <item itemvalue="Node.js.04nodejs事件驱动获取数据.js" />
       </list>
     </recent_temporary>
   </component>
@@ -126,33 +692,38 @@
       <option name="presentableId" value="Default" />
       <updated>1528103976232</updated>
       <workItem from="1528103979647" duration="2836000" />
+      <workItem from="1528165700397" duration="1402000" />
+      <workItem from="1528277175143" duration="2373000" />
+      <workItem from="1528336291981" duration="16028000" />
+      <workItem from="1528680366196" duration="22245000" />
+      <workItem from="1528767500451" duration="19468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2836000" />
+    <option name="totallyTimeSpent" value="64352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1965" y="130" width="1321" height="912" extended-state="0" />
+    <frame x="1513" y="49" width="1725" height="935" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24981076" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15536232" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.36262375" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.23614457" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39975247" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39638555" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32916147" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,13 +737,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js</url>
-          <line>21</line>
-          <properties lambdaOrdinal="-1" />
+          <line>22</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js</url>
-          <line>30</line>
-          <properties lambdaOrdinal="-1" />
+          <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -180,19 +749,327 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/index.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/t.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/t1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/model/getmime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/mime.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/02fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/04.fs.createWriteStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/05.读取写入管道流pipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241582">
+          <caret line="10981" column="15" selection-start-line="10981" selection-start-column="15" selection-end-line="10981" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/02fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/03.fs.createReadStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="9" column="15" selection-start-line="2" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/static/jq/comQ.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3783">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="10981" column="15" selection-start-line="10981" selection-start-column="15" selection-end-line="10981" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/05.读取写入管道流pipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/04.fs.createWriteStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/02fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04nodejs_fs模块/fs01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/model/getmime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/mime.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10582">
+          <caret line="481" column="7" selection-start-line="481" selection-start-column="3" selection-end-line="481" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/model/getmimefromfile_sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/mime.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/01非阻塞.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="77" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="77" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="77" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="77" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="77" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="77" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="77" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/02回调函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/03Nodejs事件驱动01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/static/jq/comQ.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile_sync.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/04nodejs事件驱动获取数据.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/00server5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
