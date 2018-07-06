@@ -8,6 +8,7 @@ http.createServer(function(req,res){
 
     // console.log(res);
     var pathname = req.url;
+
     if (pathname=='/'){
         pathname = './index.html';//默认加载的首页
     }
