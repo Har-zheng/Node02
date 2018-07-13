@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p>登录页</p>
+<h2><%=msg%></h2>
+<ul>
+    <% for (var i = 0; i<list.length; i++){ %>
+   <li><%=list[i] %></li>
+    <% } %>
+</ul>
+<form action="/dologin" method="get">
+
+    <h2><input type="text" placeholder="账户名" name="user_name"></h2>
+
+    <h2><input type="password" placeholder="密码" name="password"></h2>
+
+    <h2><input type="submit" value="登录"></h2>
+
+</form>
+
+</body>
+</html>
