@@ -9,9 +9,15 @@ app.set('views',__dirname + '/views');
 
 //中间件app.use
 
-//express.static('public')给 public目录下的文件提供静态web服务
+//express.static('public')给 .a_xieyi
 
 app.use(express.static('public'));
+
+//配置虚拟目录的静态web服务
+//http://localhost:3001/static/images/baidu.png
+
+//   images/baidu.png去public目录找这个文件，如果有就返回
+app.use('/static',express.static('public'));
 
 //views默认会在这个文件里面找模板
 app.get('/',function (req, res) {

@@ -5,50 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32e0dedf-9300-4b2f-bdae-3fec2ea408c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/08nodejs_router路由的封装/views/new.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/01nodejs_mongodb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/02nodejs_mongodb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/03nodejs_mongodb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/login.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/model/express-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/model/http-route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/model/model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/.npminstall.done" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/.npminstall.done" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/Jakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/ejs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/ejs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/lib/ejs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/_ejs@2.6.1@ejs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/.npminstall.done" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/Jakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/ejs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/ejs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/lib/ejs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/node_modules/ejs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/views/form.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/views/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/views/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/views/new.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09MongoDb/views/register.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/statics/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/statics/news.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/views/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/views/news.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10express框架介绍/views/public/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/01express应用中间件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/02express路由中间件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/03express错误处理中间件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/04express内置中间件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/05express第三方中间件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/public/images/baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11express中间件/views/login.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08nodejs_router路由的封装/06routr_express_module.js" beforeDir="false" afterPath="$PROJECT_DIR$/08nodejs_router路由的封装/06routr_express_module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08nodejs_router路由的封装/model/express-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/08nodejs_router路由的封装/model/express-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js" beforeDir="false" afterPath="$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10express框架介绍/views/news.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/10express框架介绍/views/news.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,44 +32,65 @@
       <file leaf-file-name="04express中使用ejs模板引擎.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="308">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10express框架介绍/public/css/style.css">
+      <file leaf-file-name="01express应用中间件.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11express中间件/01express应用中间件.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="379">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10express框架介绍/views/public/header.ejs">
+      <file leaf-file-name="03express错误处理中间件.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11express中间件/03express错误处理中间件.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="401">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10express框架介绍/views/news.ejs">
+      <file leaf-file-name="04express内置中间件.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11express中间件/04express内置中间件.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="396">
+              <caret line="18" column="28" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10express框架介绍/statics/news.ejs">
+      <file leaf-file-name="05express第三方中间件.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11express中间件/05express第三方中间件.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="269">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11express中间件/views/login.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="express-router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/model/express-router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -114,9 +102,9 @@
       <list>
         <option value="tsconfig.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="ejs" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -139,12 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/02回调函数.js" />
-        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/03Nodejs事件驱动01.js" />
-        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server6.js" />
-        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/04nodejs事件驱动获取数据.js" />
-        <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/model/getmime.js" />
-        <option value="$PROJECT_DIR$/05nodejs静态web服务/00server5.js" />
         <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/00server5.js" />
         <option value="$PROJECT_DIR$/06nodejs的非阻塞io，异步以及事件驱动Event/model/getmimefromfile.js" />
         <option value="$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile.js" />
@@ -188,8 +170,14 @@
         <option value="$PROJECT_DIR$/10express框架介绍/views/index.ejs" />
         <option value="$PROJECT_DIR$/10express框架介绍/views/public/header.ejs" />
         <option value="$PROJECT_DIR$/10express框架介绍/public/css/style.css" />
-        <option value="$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js" />
         <option value="$PROJECT_DIR$/10express框架介绍/views/news.ejs" />
+        <option value="$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js" />
+        <option value="$PROJECT_DIR$/11express中间件/02express路由中间件.js" />
+        <option value="$PROJECT_DIR$/11express中间件/01express应用中间件.js" />
+        <option value="$PROJECT_DIR$/11express中间件/03express错误处理中间件.js" />
+        <option value="$PROJECT_DIR$/11express中间件/04express内置中间件.js" />
+        <option value="$PROJECT_DIR$/11express中间件/views/login.ejs" />
+        <option value="$PROJECT_DIR$/11express中间件/05express第三方中间件.js" />
       </list>
     </option>
   </component>
@@ -203,6 +191,7 @@
     <handled-path value="$PROJECT_DIR$/08nodejs_router路由的封装/node_modules" />
     <handled-path value="$PROJECT_DIR$/09MongoDb/node_modules" />
     <handled-path value="$PROJECT_DIR$/10express框架介绍/node_modules" />
+    <handled-path value="$PROJECT_DIR$/11express中间件/node_modules" />
     <handled-path value="$PROJECT_DIR$/index/node_modules" />
     <handled-path value="$PROJECT_DIR$/node jwt/node_modules" />
     <handled-path value="$PROJECT_DIR$/sesson/node_modules" />
@@ -214,6 +203,7 @@
       <path value="$PROJECT_DIR$/08nodejs_router路由的封装/package.json" />
       <path value="$PROJECT_DIR$/09MongoDb/package.json" />
       <path value="$PROJECT_DIR$/10express框架介绍/package.json" />
+      <path value="$PROJECT_DIR$/11express中间件/package.json" />
       <path value="$PROJECT_DIR$/index/package.json" />
       <path value="$PROJECT_DIR$/node jwt/package.json" />
       <path value="$PROJECT_DIR$/sesson/package.json" />
@@ -233,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,32 +234,25 @@
             <path>
               <item name="node02" type="b2602c69:ProjectViewProjectNode" />
               <item name="node02" type="462c0819:PsiDirectoryNode" />
-              <item name="10express框架介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="11express中间件" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node02" type="b2602c69:ProjectViewProjectNode" />
               <item name="node02" type="462c0819:PsiDirectoryNode" />
-              <item name="10express框架介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="11express中间件" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node02" type="b2602c69:ProjectViewProjectNode" />
               <item name="node02" type="462c0819:PsiDirectoryNode" />
-              <item name="10express框架介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="11express中间件" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node02" type="462c0819:PsiDirectoryNode" />
-              <item name="10express框架介绍" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,16 +266,16 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/08nodejs_router路由的封装" />
+      <recent name="$PROJECT_DIR$/07nodejs_get_post_ejs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11express中间件" />
       <recent name="$PROJECT_DIR$/10express框架介绍" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/09MongoDb" />
       <recent name="$PROJECT_DIR$/08nodejs_router路由的封装" />
-      <recent name="$PROJECT_DIR$/08nodejs_router路由的封装/model" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/08nodejs_router路由的封装" />
-      <recent name="$PROJECT_DIR$/07nodejs_get_post_ejs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,26 +290,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.04express中使用ejs模板引擎.js">
-    <configuration name="01nodejs_mongodb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01nodejs_mongodb.js" working-dir="$PROJECT_DIR$/09MongoDb" />
-    <configuration name="02nodejs_mongodb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02nodejs_mongodb.js" working-dir="$PROJECT_DIR$/09MongoDb" />
-    <configuration name="03nodejs_mongodb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="03nodejs_mongodb.js" working-dir="$PROJECT_DIR$/09MongoDb" />
-    <configuration name="04express中使用ejs模板引擎.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="04express中使用ejs模板引擎.js" working-dir="$PROJECT_DIR$/10express框架介绍" />
-    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/10express框架介绍" />
+  <component name="RunManager" selected="Node.js.05express第三方中间件.js">
+    <configuration name="01express应用中间件.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01express应用中间件.js" working-dir="$PROJECT_DIR$/11express中间件" />
+    <configuration name="02express路由中间件.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02express路由中间件.js" working-dir="$PROJECT_DIR$/11express中间件" />
+    <configuration name="03express错误处理中间件.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="03express错误处理中间件.js" working-dir="$PROJECT_DIR$/11express中间件" />
+    <configuration name="04express内置中间件.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="04express内置中间件.js" working-dir="$PROJECT_DIR$/11express中间件" />
+    <configuration name="05express第三方中间件.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="05express第三方中间件.js" working-dir="$PROJECT_DIR$/11express中间件" />
     <list>
-      <item itemvalue="Node.js.01nodejs_mongodb.js" />
-      <item itemvalue="Node.js.02nodejs_mongodb.js" />
-      <item itemvalue="Node.js.03nodejs_mongodb.js" />
-      <item itemvalue="Node.js.app.js" />
-      <item itemvalue="Node.js.04express中使用ejs模板引擎.js" />
+      <item itemvalue="Node.js.01express应用中间件.js" />
+      <item itemvalue="Node.js.02express路由中间件.js" />
+      <item itemvalue="Node.js.03express错误处理中间件.js" />
+      <item itemvalue="Node.js.04express内置中间件.js" />
+      <item itemvalue="Node.js.05express第三方中间件.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.04express中使用ejs模板引擎.js" />
-        <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Node.js.03nodejs_mongodb.js" />
-        <item itemvalue="Node.js.02nodejs_mongodb.js" />
-        <item itemvalue="Node.js.01nodejs_mongodb.js" />
+        <item itemvalue="Node.js.05express第三方中间件.js" />
+        <item itemvalue="Node.js.04express内置中间件.js" />
+        <item itemvalue="Node.js.03express错误处理中间件.js" />
+        <item itemvalue="Node.js.02express路由中间件.js" />
+        <item itemvalue="Node.js.01express应用中间件.js" />
       </list>
     </recent_temporary>
   </component>
@@ -359,12 +343,13 @@
       <workItem from="1530840022012" duration="21343000" />
       <workItem from="1531296065088" duration="9367000" />
       <workItem from="1531358781546" duration="10886000" />
-      <workItem from="1531444517855" duration="20187000" />
+      <workItem from="1531444517855" duration="20387000" />
+      <workItem from="1531703643947" duration="7775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185865000" />
+    <option name="totallyTimeSpent" value="193840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1584" y="41" width="1498" height="923" extended-state="0" />
@@ -374,19 +359,19 @@
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.17114915" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.16625917" />
       <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.28728607" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.2848411" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.2848411" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.17114915" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,52 +393,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node jwt/getjwt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node jwt/loin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node jwt/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node jwt/obtains.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05nodejs静态web服务/00server1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/00server5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06nodejs的非阻塞io,异步以及事件驱动Event/model/getmimefromfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -536,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/01router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="66" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/views/form.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -554,13 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/02router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -578,34 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/04routr_express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/05routr_express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/06routr_express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/06routr_express_module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/views/new.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -620,23 +521,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/model/express-router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09MongoDb/01router.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09MongoDb/06routr_express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="2" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/09MongoDb/06routr_express.js" />
     <entry file="file://$PROJECT_DIR$/09MongoDb/node_modules/_mongodb@3.1.1@mongodb/lib/operations/mongo_client_ops.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1244">
@@ -658,13 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09MongoDb/06routr_express_module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/09MongoDb/06routr_express_module.js" />
     <entry file="file://$PROJECT_DIR$/09MongoDb/model/express-router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -700,41 +579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10express框架介绍/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10express框架介绍/views/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/10express框架介绍/node_modules/_ejs@2.6.1@ejs/lib/ejs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="256" column="4" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10express框架介绍/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10express框架介绍/statics/news.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10express框架介绍/views/public/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -745,17 +593,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js">
+    <entry file="file://$PROJECT_DIR$/10express框架介绍/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="570">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/10express框架介绍/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10express框架介绍/views/public/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10express框架介绍/statics/news.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10express框架介绍/public/images/baidu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/10express框架介绍/views/news.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10express框架介绍/04express中使用ejs模板引擎.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11express中间件/01express应用中间件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11express中间件/02express路由中间件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/02router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/01router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/model/express-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/06routr_express_module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/06routr_express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/05routr_express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08nodejs_router路由的封装/04routr_express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11express中间件/03express错误处理中间件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11express中间件/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11express中间件/04express内置中间件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="28" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11express中间件/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11express中间件/05express第三方中间件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
