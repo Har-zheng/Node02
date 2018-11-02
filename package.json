@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "connect-mongo": "^2.0.1",
+    "express-session": "^1.15.6"
+  }
+}

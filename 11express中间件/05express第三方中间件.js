@@ -11,22 +11,24 @@
 // app.use(bodyParser.json());
 // 提交的 json 数据的数据
 // 4.req.body 获取数据
+// 5 ,获取coolies   req.cookies
 var express = require('express');//引入
 
 var app = new express(); //实例化
 
 var bodyParser = require('body-parser');
 
-var cookieParser = require('cookie-parser')
+var cookieParser = require('cookie-parser');
 
-var app = express()
+var app = express();
+
 app.use(cookieParser());
 
 
 
 //配置body-parser中间件
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // parse application/json
 app.use(bodyParser.json());
@@ -34,24 +36,25 @@ app.use(bodyParser.json());
 app.set('view engine','ejs');
 
 
-app.get('/',function (req, res) {
-    res.send('你好express');
+app.get('/news',function (req, res) {
+    console.log(req.cookies);
+
+    res.send('你好express news');
+
 });
 
 app.get('/set',function (req, res) {
     // 参数1： 名字
     // 参数2：cookie的值
     // 参数3： cookie的配置信息
-
-    res.cookie('username','cookie的值',{maxAge:6000});
+    console.log(req.cookies);
+    res.cookie('username','cookie的值',{maxAge:600000});
     res.send('设置cookie成功')
 });
 app.get('/login',function (req, res) {
-
     res.render('login');
 });
 app.post('/doLogin',function (req,res) {
-
     console.log(req.body); //获取post传输数据
 });
 
